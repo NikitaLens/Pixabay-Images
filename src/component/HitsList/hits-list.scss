@@ -1,0 +1,33 @@
+@import '../../constants/scss-constants.scss';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - #{$header-height});
+
+  .hits-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .hit-card {
+      padding: 5px;
+      margin: 5px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        display: contents;
+      }
+    }
+  }
+
+  .not-found {
+    color: $text-color;
+    font-weight: bold;
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,15 @@
+@import 'constants/scss-constants.scss';
+
+.app {
+  background-color: $app-background-color;
+  min-width: $app-min-width;
+
+  .app-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 1080px;
+    min-width: $app-min-width;
+    margin: 0 auto;
+  }
+}

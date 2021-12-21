@@ -1,0 +1,30 @@
+@import '../../constants/scss-constants.scss';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+  color: $text-color;
+  font-weight: bold;
+  background-color: $app-background-color;
+
+  .search-panel {
+    display: flex;
+    flex-direction: row;
+
+    .search-input {
+      display: flex;
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      width: 100%;
+      border-radius: 10px;
+      background: $background-color;
+      outline: none;
+      color: $text-color;
+    }
+  }
+}

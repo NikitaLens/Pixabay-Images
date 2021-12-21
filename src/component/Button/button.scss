@@ -1,0 +1,15 @@
+@import '../../constants/scss-constants.scss';
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: $background-color;
+  outline: none;
+  color: $text-color;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+}
